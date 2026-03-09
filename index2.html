@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background-color: #0f172a;
+      color: #f1f5f9;
+      line-height: 1.6;
+    }
+    header {
+      padding: 40px 10%;
+      text-align: center;
+      background: linear-gradient(135deg, #2563eb, #7c3aed);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    header a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: white;
+      color: #2563eb;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+
+    header a:hover {
+      background: #e2e8f0;
+    }
+
+    section {
+      padding: 60px 10%;
+    }
+    h2 {
+      margin-bottom: 20px;
+      color: #60a5fa;
+    }
+
+    .about p {
+      max-width: 600px;
+    }
+
+    .skills span {
+      display: inline-block;
+      background: #1e293b;
+      padding: 8px 15px;
+      margin: 5px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .project-card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+      background: #334155;
+    }
+
+    .project-card h3 {
+      margin-bottom: 10px;
+      color: #38bdf8;
+    }
+
+    .project-card p {
+      font-size: 0.9rem;
+      margin-bottom: 10px;
+    }
+
+    .project-card a {
+      text-decoration: none;
+      color: #60a5fa;
+      font-weight: bold;
+      font-size: 0.9rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1e293b;
+      margin-top: 40px;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+    .profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid white;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+  }
+}
+.tu span {
+      display: inline-block;
+      background: #1e293b;
+      padding: 8px 15px;
+      margin: 5px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      color: green;
+    }
+     .tu:hover {
+      transform: translateY(-5px);
+      background: #0f172a;
+    }
+    </style>
+</head>
+<body>
+     <header>
+        <img src="tu.jpeg" alt="Foto de Ruth Mussenga Abudala" class="profile-pic">
+      
+        <h1>Ruth Mussenga Abudala</h1>
+        <p>Desenvolvedora Front-End | Criando interfaces modernas, rápidas e responsivas</p>
+      </header>
+
+     <section id="projects">
+    <h2>Outras Habilidades</h2>
+
+    <div class="projects">
+
+      <div class="project-card">
+        <h3>Jornalista/Radiojornalista</h3>
+        <p>Esta é uma das habilidades que mais me marcaram,<br>
+        porque foi como jornalista/radiojornalista que aprendi <br>
+    o valor da comunicação clara e objectiva, também aprendi <br>
+o poder da expressão linguistica e corporal. </p>
+        <a href="https://www.youtube.com/watch?v=bYnafPU4lpY">Ver trabalhos</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Tecnica informatica</h3>
+        <p>Foi com esta habilidade que encontrei uma paixao<br>
+        que hoje se tornou uma profissão que pretendo levar<br>
+    pra vida</p>
+      </div>
+      </section>
+
+      <section>
+     <a href="index.html"><div class="tu">
+      <span>voltar</span>
+    </div></a>
+  </section>
+  
+  <section>
+    <h2>Contato</h2>
+    <p>Email: ruthabudala@email.com</p>
+    <p>868103190</p>
+    <p>850547647</p>
+  </section>
+
+  <footer>
+    © 2026 Ruth Mussenga Abudala - Todos os direitos reservados
+  </footer>
+
+</body>
+</html>
